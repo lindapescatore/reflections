@@ -48,4 +48,6 @@ With version control I know that anything I do can be undone, so as long as I co
 
 What do you want to try using Git for?
 
-I would like to use Git for my masters project so I don't have to make different files every time I try something new. I also want to be able to fork (?) or clone (?) repositories on github.
+I would like to use Git for my masters project so I don't have to make different files every time I try something new. 
+
+I also want to be able to fork (?) or clone (?) repositories on github.
