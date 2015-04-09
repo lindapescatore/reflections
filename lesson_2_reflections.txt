@@ -1,0 +1,33 @@
+What happens when you initialise a repository? Why do you need to do it?
+
+When I initialise a repository, Git places a hidden directory called .git in the folder. 
+
+The directory contains files that git needs to operate and keep track of my files.
+
+I need to do it so that git will work. 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The working directory is not tracked by git until they are added to the staging area. 
+
+After I changed lesson_1_reflections.txt, I ran status again. Git noted that it had been modified. 
+
+However, it did not notice that I had changed lesson_2_reflections.txt. 
+
+Git advised me to re-add the file to update what will be committed. So I guess that if I don't, the version at the time of adding would be committed.
+
+That makes me wonder what would happen to the changes I made in the interim.
+
+I believe they would be lost. Notepad would probably ask me if I wanted to retain the file since it had been changed by another program.
+
+Update: I was wrong. In git status, I see 'Changes not staged for commit:' and the same advice to add the file or checkout to discard changes.
+
+The files in the staging area will be included in the next commit together.
+
+The staging area allows me to group files so that any changes to them will be bundled into the same commit. 
+
+If Caroline added all three files to her initial commit, then any future checkouts she made for the chili recipe would also affect the cake files.
+
+I'm not sure yet whether initial adds and commits persist, so that those files are always bundled in that way.
+
+I've always been confounded by the idea of the staging area. I want to go straight to 'commit.' This helped me see at least a little benefit.
