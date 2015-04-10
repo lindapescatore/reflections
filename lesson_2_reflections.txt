@@ -31,3 +31,9 @@ If Caroline added all three files to her initial commit, then any future checkou
 I'm not sure yet whether initial adds and commits persist, so that those files are always bundled in that way.
 
 I've always been confounded by the idea of the staging area. I want to go straight to 'commit.' This helped me see at least a little benefit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+I can run git diff or git diff --staged to see what changes are ready to be committed in the staging area, and make sure that they represent only one logical change.
+
+However, I'm not sure what I would do if I'd already made more changes than that. Would it be better to revert changes, then re-add and commit, then go back to the file and redo my changes, assuming they are still in the undo history, rinse and repeat? Or just commit and list more than one change?
