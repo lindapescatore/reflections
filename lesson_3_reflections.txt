@@ -15,3 +15,7 @@ Branches are for embarking on a new direction in your code, while keeping a mast
 Clones copy a repository, which could be on your own computer or on Github, whether in your own account or someone else's. The copy goes to your own computer. You don't need permission to clone a repository. To clone, copy the URL in the box at the bottom right of the repo's page, then enter the command 'git clone <paste-the-url>'
 
 Fork is a copy of a repo from one Github repo to another. You can work on it remotely on Github, but if you want to work on it locally on your own computer, you must clone it first. To fork, click the fork button at the top righthand corner of the repo page.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Without having the last known state of the remote, git would have to do a lot more work every time you wanted to pull from the remote repository. The last known state lets git simplify the merge process when the tip of the local branch is reachable through the commit history of the remote branch.
