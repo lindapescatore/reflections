@@ -7,3 +7,11 @@ Also, even if I always worked on one computer, a remote repository would be a wa
 Why might you want to always pull changes manually rather than have Git automatically stay up-to-date with your remote repository?
 
 If other people are pushing to the Github repository, I might not want to get their changes until I've reviewed them. 
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Branches are for embarking on a new direction in your code, while keeping a master version untouched. You may merge them later, or not. 
+
+Clones copy a repository, which could be on your own computer or on Github, whether in your own account or someone else's. The copy goes to your own computer. You don't need permission to clone a repository. To clone, copy the URL in the box at the bottom right of the repo's page, then enter the command 'git clone <paste-the-url>'
+
+Fork is a copy of a repo from one Github repo to another. You can work on it remotely on Github, but if you want to work on it locally on your own computer, you must clone it first. To fork, click the fork button at the top righthand corner of the repo page.

@@ -37,3 +37,25 @@ How can you use the staging area to make sure you have one commit per logical ch
 I can run git diff or git diff --staged to see what changes are ready to be committed in the staging area, and make sure that they represent only one logical change.
 
 However, I'm not sure what I would do if I'd already made more changes than that. Would it be better to revert changes, then re-add and commit, then go back to the file and redo my changes, assuming they are still in the undo history, rinse and repeat? Or just commit and list more than one change?
+
+What are some situations when branches would be helpful in keeping your history organised? 
+
+Any time I want to try something out, or have different versions for different uses, it would be great to have a branch. 
+
+How do the diagrams help you to visualise the branch structure?
+
+The diagrams clearly show how the various commits may be unreachable, since they always know only their parent. 
+
+Once they reach a certain point, they can't go back up the chain on a different branch. They can only go back until they reach a commit without a parent.
+
+But I wonder how difficult it will be to merge them. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result is one branch that has the label of the branch currently checked out, with all the commits saved in chronological order.
+
+It's represented as a meeting of two branches because from that point you can backtrack to any parent.
+
+What are the pros and cons of Git's automatic merging vs always doing merges manually?
+
+Not having to copy-paste lines in the right place is an obvious benefit. But then again, there could be content you don't really want to add that gets dumped in automatically. Resolving conflicts can be tedious, and removing the extra lines is a pain. Could they be comment lines so they don't break everything? Maybe that is the point.
