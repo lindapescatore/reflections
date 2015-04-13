@@ -19,3 +19,7 @@ Fork is a copy of a repo from one Github repo to another. You can work on it rem
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 Without having the last known state of the remote, git would have to do a lot more work every time you wanted to pull from the remote repository. The last known state lets git simplify the merge process when the tip of the local branch is reachable through the commit history of the remote branch.
+
+How would you collaborate without using Git or Github? What would be easier, and what would be harder?
+
+I would probably either use another version control system, such as Subversion, or something like Google Docs. Subversion is not distributed, so working offline is not as easy, and Google Docs is designed for documents like letters and reports, not code. But Google allows chat so we could discuss the changes immediately, instead of waiting to see if someone responded to my pull request and maybe having to explain why my changes are correct when they had a problem. 
