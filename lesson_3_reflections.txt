@@ -26,4 +26,4 @@ I would probably either use another version control system, such as Subversion, 
 
 When would you want to make changes in a separate branch, rather than directly in master? What benefits does each approach have?
 
-I think this question is a repeat, but I'll answer it from a different perspective. Before, branching was about trying a new feature that I could merge later, if I wanted. With collaboration, it allows different people to work on the same master, and to see everyone's changes before merging. It keeps master as 'clean' as possible. 
+I think this question is a repeat, but I'll answer it from a different perspective. Before, branching was about trying a new feature that I could merge later, if I wanted. With collaboration, it allows different people to work on the same master, and to see everyone else's changes before merging. It keeps master as 'clean' as possible. 
