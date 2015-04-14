@@ -23,3 +23,7 @@ Without having the last known state of the remote, git would have to do a lot mo
 How would you collaborate without using Git or Github? What would be easier, and what would be harder?
 
 I would probably either use another version control system, such as Subversion, or something like Google Docs. Subversion is not distributed, so working offline is not as easy, and Google Docs is designed for documents like letters and reports, not code. But Google allows chat so we could discuss the changes immediately, instead of waiting to see if someone responded to my pull request and maybe having to explain why my changes are correct when they had a problem. 
+
+When would you want to make changes in a separate branch, rather than directly in master? What benefits does each approach have?
+
+I think this question is a repeat, but I'll answer it from a different perspective. Before, branching was about trying a new feature that I could merge later, if I wanted. With collaboration, it allows different people to work on the same master, and to see everyone's changes before merging. It keeps master as 'clean' as possible. 
